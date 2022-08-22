@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>WD-MINOR-JULY</title>
+    <style>
+        #Header{ border-style: double; border-width: 15px; width: 96%; top: 0px; text-align: center; position: fixed;background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjvGgfGM38T_t4UxXkft1PxAiENAdjE85yQ&usqp=CAU);
+        background-size: cover;
+    background-attachment: fixed;background-repeat: no-repeat;
+word-spacing: 50px;
+letter-spacing: 20px; font-size: 15px;}
+        #Tajmahal{grid-area: tajmahal;}
+        #Qutubshahitombs{grid-area: qutubshahitombs;}
+        #Qutubminar{grid-area: qutubminar;}
+        #Mysorepalace{grid-area: mysorepalace;}
+        #Charminar{grid-area: charminar;}
+        #Citypalace{grid-area: citypalace;}
+        #Redfort{grid-area: redfort;}
+        #Golkondafort{grid-area: golkondafort;}
+        #Brihadisvaratemple{grid-area: brihadisvaratemple;}
+        #Audio{
+        text-align: left;}
+        #Footer{border-style: groove; border-width: 5px; width: 96%; bottom: 0px; text-align: center; position: fixed;background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjvGgfGM38T_t4UxXkft1PxAiENAdjE85yQ&usqp=CAU);
+        background-size: cover;
+    background-attachment: fixed; background-repeat: no-repeat;
+        }
+
+        #maindiv{
+            display: grid;
+            background-position: fixed;
+            grid-template-areas: 
+            "tajmahal qutubshahitombs qutubminar "
+            "mysorepalace charminar citypalace"
+            "redfort golkondafort brihadisvaratemple";
+            padding:20px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsjvGgfGM38T_t4UxXkft1PxAiENAdjE85yQ&usqp=CAU);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin:20px;
+            border-style: double;
+            border-width: 8px;
+
+        }
+        #maindiv >div{
+            background-color: transparent;
+            padding: 15px;
+            border-radius: 50px;;
+            margin: 5px;
+            color: black;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 25px;
+         }
+
+         h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-transform: uppercase;
+            word-spacing: 15px;
+         }
+            
+    </style>
+</head>
+<body>
+    </div>
+    <!--Grid Box - it is a two dimension (is a combination of rows and columns) -->
+
+    <div id="Header"><h1><b><u>Historical places of India</u></b></h1></div>
+
+
+    <div id="maindiv">
+        
+
+
+        <div id="Tajmahal">
+            <a href="https://en.wikipedia.org/wiki/Taj_Mahal">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/taj-mahal.jpg" width="400px" height="200px">
+            <br>
+            Taj Mahal, Agra</a>
+        <h6>The Taj Mahal is a perfect symmetrical planned building, with an emphasis of bilateral symmetry along a central axis on which the main features are placed.<a href="https://en.wikipedia.org/wiki/Taj_Mahal">Read more...</a></h6></div>
+
+
+        <div id="Redfort">
+            <a href="https://en.wikipedia.org/wiki/Red_Fort">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Red-Fort-Delhi.jpg" width="400px" height="200px">
+            <br>
+            Red Fort, Delhi</a>
+        <h6>The Red Fort Complex was built as the palace fort of Shahjahanabad – the new capital of the fifth Mughal Emperor of India, Shah Jahan. Named for its massive enclosing walls of red sandstone, it is adjacent to an older fort, the Salim<a href="https://en.wikipedia.org/wiki/Red_Fort">Read more...</a></h6></div>
+
+
+        <div id="Qutubminar">
+            <a href="https://en.wikipedia.org/wiki/Qutb_Minar">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Qutub-Minar.jpg" width="400px" height="200px">
+            <br>
+            Qutub Minar, Delhi</a>
+        <h6>The Qutb Minar, also spelled Qutub Minar and Qutab Minar, is a minaret and "victory tower" that forms part of the Qutb complex, which lies at the site of Delhi’s oldest fortified city, Lal Kot, founded by the Tomar Rajputs.<a href="https://en.wikipedia.org/wiki/Qutb_Minar">Read more...</a></h6></div>
+
+
+        <div id="Mysorepalace">
+            <a href="https://en.wikipedia.org/wiki/Mysore_Palace">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/mysore-palace.jpg" width="400px" height="200px">
+            <br>
+            Mysore Palace, Mysore</a>
+        <h6>The Palace of Mysore (also known as the Amba Vilas Palace) is a historical palace in the city of Mysore in Karnataka. Designed by the English Architect, Henry Irwin, the Mysore Palace dominates the skyline of Mysore.<a href="https://en.wikipedia.org/wiki/Mysore_Palace">Read more...</a></h6></div>
+
+
+        <div id="Charinar">
+            <a href="https://en.wikipedia.org/wiki/Charminar">
+            <img src="https://www.transindiatravels.com/wp-content/uploads/charminar-1.jpg" width="400px" height="200px">
+            <br>
+            Charminar, Hyderabad</a>
+        <h6>Built in the year 1591 AD, Charminar is the beating heart of Hyderabadis. The landmark of the city was built by the fifth ruler of Qutb Shahi dynasty, Muhammad Quli Qutb Shah.<a href="https://en.wikipedia.org/wiki/Charminar">Read more...</a></h6></div>
+
+
+        <div id="Citypalace">
+            <a href="https://en.wikipedia.org/wiki/City_Palace,_Udaipur">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/city-palace-udaipur.jpg" width="400px" height="200px">
+            <br>
+            City Palace, Udaipur</a>
+        <h6>Built on the banks of Lake Pichola, the City Palace in Udaipur is considered to be the largest royal complex in Rajasthan. The magnificent palace was built in the year 1559 by Maharana Uday Singh <a href="https://en.wikipedia.org/wiki/City_Palace,_Udaipur">Read more...</a></h6></div>
+
+
+        <div id="Qutubshahitombs">
+            <a href="https://en.wikipedia.org/wiki/Qutb_Shahi_tombs">
+            <img src="https://images.pexels.com/photos/8637600/pexels-photo-8637600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400px" height="200px">
+            <br>
+            Qutub Shahi Tombs, Hyderabad</a>
+            <h6>The Qutub Shahi Tombs were planned and built by numerous monarchs who ruled the city and the state during the 18th century.<a href="https://en.wikipedia.org/wiki/Golconda_Fort">Read more...</a></h6></div>
+
+
+        <div id="Golkondafort">
+            <a href="https://en.wikipedia.org/wiki/Golconda_Fort">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/golkonda-fort.jpg" height="200px" width="400px">
+            <br>
+            Golkonda Fort, Hyderabad</a>
+        <h6>Golconda Fort is located in the western part of Hyderabad city and is about 9 km from the Hussain Sagar Lake. The outer fort occupies an area of three square kilometers, which is 4.8 kilometers in length.<a href="https://en.wikipedia.org/wiki/Golconda_Fort">Read more...</a></h6></div>
+
+
+        <div id="Brihadisvaratemple">
+            <a href="https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur">
+            <img src="https://ihplb.b-cdn.net/wp-content/uploads/2018/06/Brihdeshwara-temple.jpg" width="400px" height="200px">
+            <br>
+            Brihadisvara Temple, Tamil Nadu</a>
+        <h6>Brihadeeshwar Temple is one of the most beautiful architectural splendors of the country. It is erected amidst the great walls made perhaps in the sixteenth century.<a hreflang="https://en.wikipedia.org/wiki/Brihadisvara_Temple,_Thanjavur">Read more...</a></h6></div>
+
+
+       
+    </div>
+    
+    <div id="Footer">
+        <h6>National Anthem<br>
+            <audio src="National Anthem.mp3" controls></audio><br>Designed and Developed by Faariya Tarannum</h6></div>
+
+
+</body>
+</html>
